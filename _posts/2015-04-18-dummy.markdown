@@ -1,16 +1,21 @@
 ---
 layout: post
-title:  "Dummy Post"
-date:   2015-04-18 08:43:59
-author: Ben Centra
-categories: Dummy
+title:  "BaseCamp 1일차 소감!"
+date:   2019-01-11 18:43:59
+author: imjingyu
+categories: memory
 ---
 
-This is just a dummy post. Lorem ipsum and all the rest.
+# BaseCamp 1일차 소감!
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## 시작
+* 짧고 굵은 입문 교육이 끝나고, BaseCamp가 시작되었다. 새로운 조가 편성되었고, 새로운 사람과의 만남이 시작되었다. 약 9주라는 시간을 ~ 내자리가 생겼다.
+
+## 막막함
+* 어색한 약 1년만의 기획. 막막함이 가장 앞섰던게 사실이다. ~
+
+## 기대
+* ~
+
+## 마지막 한마디
+> 루키행복TF 화이팅 :)

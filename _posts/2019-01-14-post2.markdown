@@ -4,7 +4,7 @@ layout: post
 title:  "Week1을 돌아보며"
 date:   2019-01-11 17:30:33
 author: imjingyu
-categories: NHN Entertainment.TOAST ROOKIE 6th
+categories: ToastRookie6th
 tags: NHN Entertainment
 
 ---

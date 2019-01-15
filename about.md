@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
+<img src="{{ site.baseurl }}/assets/profile-placeholder.jpg" title="Profile Picture" class="profile">
 
 ## 임진규
 * NHN Entertainment - TOAST ROOKIE 6th

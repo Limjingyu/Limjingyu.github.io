@@ -2,15 +2,32 @@
 
 layout: post
 title:  "Week1을 돌아보며"
-date:   2019-01-11 17:30:33
+date:   2019-01-14 17:30:33
 author: imjingyu
 categories: Rookie6th
 tags: NHN Entertainment
 
 ---
 
-## 배움
+## 배움 - 이런걸 했었지
+
+### 화요일
 * ㅁ
 
-## "잘한다 잘한다 "
+### 수요일
+* ㅁ
+
+### 목요일
+* ㅁ
+
+### 금요일
+* ㅁ
+
+### 퇼요일
+* ㅁ
+
+### 월요일
+* ㅁ
+
+## "잘한다 잘한다 잘하자"
 *

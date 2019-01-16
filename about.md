@@ -7,5 +7,5 @@ permalink: /about/
 <img src="{{ site.baseurl }}/assets/profile-placeholder.jpg" title="Profile Picture" class="profile">
 
 ## 임진규
-* NHN Entertainment - TOAST ROOKIE 6th
-* github : https://github.com/Limjingyu
+* 생년월일 : 1992.03.07
+* 회사 : NHN Entertainment

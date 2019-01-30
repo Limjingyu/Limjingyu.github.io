@@ -1,0 +1,16 @@
+---
+
+layout: post
+title:  "STUDY : junit과 TDD"
+date:   2019-01-31 18:43:59
+author: imjingyu
+categories: Rookie6th
+tags: NHN Entertainment
+
+---
+
+## 목적
+* 진행중인 프로젝트를 리팩토링하고 테스트하기 위한 목적으로 TDD의 개념과 test code 작성 과정에 대해 정리해보고자 한다.
+
+## 
+* 

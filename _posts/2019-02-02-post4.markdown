@@ -1,0 +1,16 @@
+---
+
+layout: post
+title:  "BaseCamp Week3/Week4"
+date:   2019-02-02 11:20:26
+author: imjingyu
+categories: Rookie6th
+tags: NHN Entertainment
+
+---
+
+## 벌써 2월!?
+* ()
+
+## 익숙해져야 할 것들
+* (업무 프로세스/교육내용 정리)

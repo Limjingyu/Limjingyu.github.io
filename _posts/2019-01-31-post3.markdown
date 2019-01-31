@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title:  "STUDY : junit과 TDD"
+title:  "STUDY : test code 작성을 위한 준비"
 date:   2019-01-31 20:13:51
 author: imjingyu
 categories: Rookie6th
@@ -10,7 +10,58 @@ tags: NHN Entertainment
 ---
 
 ## 목적
-* 진행중인 프로젝트를 리팩토링하고 테스트하기 위한 목적으로 TDD의 개념과 test code 작성 과정에 대해 정리해보고자 한다.
+* 진행중인 프로젝트를 리팩토링하고 테스트하기 위한 목적으로 test code 작성 요령에 대해 정리해보고자 한다.
+* 교육내용을 기반으로 조금 더 넓게 알아보자
+* 이해하지 못했던 부분을 이해하기
 
-## 
-* 
+## JUnit (Life Cycle)
+@BeforeClass
+@AfterClass
+@Before
+@After
+@Test
+
+
+### Assertions
+assertEquals
+assertTrue
+assertFalse
+assertNull
+assertNotNull
+assertSame
+assertNotSame
+assertArrayEquals
+assertThat
+
+
+### Matchers
+allOf
+anyOf
+not
+equalTo
+is
+hasToString
+instanceOf, isCompatibleType
+notNullValue, nullValue
+sameInstance
+hasEntry, hasKey, hasValue
+hasItem, hasItems
+hasItemInArray
+closeTo
+greaterThan, greaterThanOrEqualTo, lessThan, lessThanOrEqualTo
+equalToIgnoringCase
+equalToIgnoringWhiteSpace
+containsString, endsWith, startsWith
+
+### Mocking
+
+
+### Mockito
+
+
+## Integration Test
+WebMvcTest
+MockBean
+
+
+## MybatisTest

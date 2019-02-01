@@ -1,8 +1,8 @@
 ---
 
 layout: post
-title:  "STUDY : test code 작성을 위한 (작성중)"
-date:   2019-01-31 20:13:51
+title:  "STUDY : test code 작성 준비"
+date:   2019-01-31 23:13:51
 author: imjingyu
 categories: Rookie6th
 tags: NHN Entertainment
@@ -26,6 +26,7 @@ tags: NHN Entertainment
 * 유닛테스트를 위해 각 클래스의 Test클래스를 만든다.
     * 각 클래스 선택 - 오른쪽 마우스 - new - JUnit Test Case
 * 생성 예제(UserService.java)
+
 ```
 package com.nhnent.rookie.hnhlogin.user;
 
@@ -66,38 +67,21 @@ public class UserAPIControllerTest {
 * @Test(timeout=500) : 500밀리초를 넘긴다면 이 테스트는 실패
 * @Test(expected=RuntimeException.class) : RuntimeException이 발생해야 테스트가 성공, 그렇지 않으면 실패
 
+## 후기
+* test코드를 작성해본 경험이 거의 없는 지라 테스트 코드의 작성 방법과 간단한 예제를 보는 것도 쉽지 않았다. 그리고 더 당황스러운 점은 이렇게 예제를 보며 작성했던 테스트코드가 로컬에서는 pass를 했지만 소나큐브를 통해 확인했을땐 라인커버가 올라가지 않고 계속 0으로 뜨는 현상이였다. 팀원들과 이유를 찾아봤지만 찾지 못했고, 연휴가 지나고 조언을 구해봐야 할 것 같다. 일단은 위의 단순한 test코드부터 아래의 test기법들까지 개념을 익히고 코드를 작성해보며 50이상의 커버리지를 달성할 수 있도록 하겠다.
 
-### Matchers
-* http://www.vogella.com/tutorials/Hamcrest/article.html
-* http://hamcrest.org/JavaHamcrest/javadoc/1.3/org/hamcrest/Matchers.html
-allOf
-anyOf
-not
-equalTo
-is
-hasToString
-instanceOf, isCompatibleType
-notNullValue, nullValue
-sameInstance
-hasEntry, hasKey, hasValue
-hasItem, hasItems
-hasItemInArray
-closeTo
-greaterThan, greaterThanOrEqualTo, lessThan, lessThanOrEqualTo
-equalToIgnoringCase
-equalToIgnoringWhiteSpace
-containsString, endsWith, startsWith
+### 이후 공부할 내용
+* Matchers
+  * http://www.vogella.com/tutorials/Hamcrest/article.html
+  * http://hamcrest.org/JavaHamcrest/javadoc/1.3/org/hamcrest/Matchers.html
 
-### Mocking
+* Mockito
+  * 단위 테스트를 위한 Java mocking framework
+  * https://nesoy.github.io/articles/2018-09/Mockito
 
+* Integration Test - MvcTest
+  * WebMvcTest / Mocking / MockBean
+  * http://thswave.github.io/java/2015/03/02/spring-mvc-test.html
+  * https://d2.naver.com/helloworld/1341
 
-### Mockito
-* 단위 테스트를 위한 Java mocking framework
-* https://nesoy.github.io/articles/2018-09/Mockito
-
-## Integration Test
-WebMvcTest
-MockBean
-
-
-## MybatisTest
+* MybatisTest

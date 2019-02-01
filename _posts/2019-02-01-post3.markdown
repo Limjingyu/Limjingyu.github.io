@@ -1,0 +1,103 @@
+---
+
+layout: post
+title:  "STUDY : test code 작성을 위한 (작성중)"
+date:   2019-01-31 20:13:51
+author: imjingyu
+categories: Rookie6th
+tags: NHN Entertainment
+
+---
+
+## 목적
+* 진행중인 프로젝트를 리팩토링하고 테스트하기 위한 목적으로 test code 작성 요령에 대해 정리해보고자 한다.
+* 교육내용을 기반으로 조금 더 넓게 알아보자
+* 이해하지 못했던 부분을 이해하기
+
+## JUnit
+### LifeCycle
+* @BeforeClass
+* @AfterClass
+* @Before
+* @After
+* @Test
+
+### test코드 만들기
+* 유닛테스트를 위해 각 클래스의 Test클래스를 만든다.
+    * 각 클래스 선택 - 오른쪽 마우스 - new - JUnit Test Case
+* 생성 예제(UserService.java)
+```
+package com.nhnent.rookie.hnhlogin.user;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class UserAPIControllerTest {
+
+    @Test
+    public void test() {
+        fail("Not yet implemented");
+    }
+}
+```
+
+### Assertions
+* assertTrue : Asserts that a condition is true
+* assertFalse : Asserts that a condition is false
+* assertEquals : Asserts that two objects are equal
+* assertArrayEquals : Asserts that two object arrays are equal
+* assertNotNull : Asserts that an object isn't null
+* assertNull : Asserts that an object is null
+* assertSame : Asserts that two objects refer to the same object
+* assertNotSame : Asserts that two objects do not refer to the same object
+* assertThat : Asserts that actual satisfies the condition specified by matcher. If not, an AssertionError is thrown with information about the matcher and failing value
+  * 예제
+  ```
+  assertThat(0, is(1)); // fails:
+     // failure message:
+     // expected: is <1> 
+     // got value: <0>
+   assertThat(0, is(not(1))) // passes
+  ```
+* [참고](http://junit.sourceforge.net/javadoc/org/junit/Assert.html)
+
+### @Test 응용
+* @Test(timeout=500) : 500밀리초를 넘긴다면 이 테스트는 실패
+* @Test(expected=RuntimeException.class) : RuntimeException이 발생해야 테스트가 성공, 그렇지 않으면 실패
+
+
+### Matchers
+* http://www.vogella.com/tutorials/Hamcrest/article.html
+* http://hamcrest.org/JavaHamcrest/javadoc/1.3/org/hamcrest/Matchers.html
+allOf
+anyOf
+not
+equalTo
+is
+hasToString
+instanceOf, isCompatibleType
+notNullValue, nullValue
+sameInstance
+hasEntry, hasKey, hasValue
+hasItem, hasItems
+hasItemInArray
+closeTo
+greaterThan, greaterThanOrEqualTo, lessThan, lessThanOrEqualTo
+equalToIgnoringCase
+equalToIgnoringWhiteSpace
+containsString, endsWith, startsWith
+
+### Mocking
+
+
+### Mockito
+* 단위 테스트를 위한 Java mocking framework
+* https://nesoy.github.io/articles/2018-09/Mockito
+
+## Integration Test
+WebMvcTest
+MockBean
+
+
+## MybatisTest

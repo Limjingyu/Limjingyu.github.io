@@ -11,7 +11,7 @@ tags: NHN Entertainment
 
 ## SOL
 * 서버 접속 후,
-> [irteam@nrew-rookie-wa905 ~]$ ./script/deploy.sh
+> $ ./script/deploy.sh
 ```
 #!/bin/bash
 
@@ -92,7 +92,8 @@ cp hnhlogin.war ~/deploy/
             unpackWARs="false" autoDeploy="false"
             xmlValidation="false" xmlNamespaceAware="false">
 
-        <Context path="/" docBase="/home1/irteam/deploy/hnhmail.war" reloadable="false"/>
+        <Context path="/" docBase="~
+        /deploy/hnhmail.war" reloadable="false"/>
         <Context path="/managerAgent" debug="0" privileged="true" docBase="managerAgent.war" />
       </Host>
     </Engine>
@@ -104,10 +105,10 @@ cp hnhlogin.war ~/deploy/
 * apps/tomcat*/bin/catalina.sh
 ```
 ...
-export CATALINA_HOME=/home1/irteam/apps/tomcat_mail
-export TOMCAT_HOME=/home1/irteam/apps/tomcat_mail
-export CATALINA_BASE=/home1/irteam/apps/tomcat_mail
-CATALINA_PID=/home1/irteam/apps/tomcat_mail/bin/tomcat.pid
+export CATALINA_HOME=~/apps/tomcat_mail
+export TOMCAT_HOME=~/apps/tomcat_mail
+export CATALINA_BASE=~/apps/tomcat_mail
+CATALINA_PID=~/apps/tomcat_mail/bin/tomcat.pid
 ...
 ```
 
@@ -154,8 +155,6 @@ JkMountCopy All
 
 ---
 #### 참고 자료
-* 서버 접속 및 배포
-    * https://nhnent.dooray.com/project/important/2397621294315654278
 * 아파치
     * https://madplay.github.io/post/apache-tomcat-modjk
     * https://www.lesstif.com/pages/viewpage.action?pageId=12943367

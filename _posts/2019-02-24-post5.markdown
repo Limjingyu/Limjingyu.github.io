@@ -16,6 +16,7 @@ tags: NHN Entertainment
 * <span style="color:#bfd4f2">~~두서 없음 주의~~</span>
 > 누군가에겐 기본일 수 있는 내용들... 나도 기본으로 만들어 놓자!!
 
+---
 
 ## JVM, JRE, JDK
 ### 개념
@@ -36,6 +37,7 @@ tags: NHN Entertainment
 * https://code.i-harness.com/ko-kr/q/1d170d
 * http://www.itworld.co.kr/news/110768
 
+---
 
 ## String, StringBuffer, StringBuilder
 ### 기능
@@ -55,6 +57,7 @@ tags: NHN Entertainment
 ### 참고자료
 * https://ooz.co.kr/298
 
+---
 
 ## 톰캣 + 카탈리나 + ...
 ### 톰캣 디렉토리 구조
@@ -78,6 +81,8 @@ tags: NHN Entertainment
 * https://ehdvudee.tistory.com/8
 * https://en.wikipedia.org/wiki/Apache_JServ_Protocol
 
+---
+
 ## 로그
 ### 로깅
 * 시스템을 작동할 때 시스템의 작동 상태의 기록과 보존, 이용자의 습성 조사 및 시스템 동작의 분석 등을 하기 위해 작동중의 각종 정보를 기록해둘 필요가 있다. 이 기록을 만드는 것을 로깅이라 한다. 즉, 로그 시스템의 사용에 관계된 일련의 「사건」을 시간의 경과에 따라 기록하는 것이다. (출처 : 네이버 지식백과)
@@ -96,12 +101,16 @@ tags: NHN Entertainment
     * https://logback.qos.ch/manual/
     * https://doublesprogramming.tistory.com/82
 
+---
+
 ## 인터셉터
 ### 개념
 * 인터셉터에서 어떠한 요청이 들어올 때, 그 사람의 로그인 여부를 판단해서 로그인이 되어있으면 요청한 페이지로 이동시키고, 로그인이 되어있지 않을경우 바로 메인 페이지로 이동시키면 끝이다. 
 * 즉, 단 하나의 인터셉터로 프로젝트내의 모든 요청에서 로그인 여부를 관리할 수 있는것이다.
 ### 참고자료
 * https://addio3305.tistory.com/43
+
+---
 
 ## Maven
 ### 역할
@@ -113,6 +122,8 @@ tags: NHN Entertainment
 * Maven install : Local Repository에 패키지를 복사한다.
 ### 참고자료
 * https://mangkyu.tistory.com/8?category=761303
+
+---
 
 ## jar, war, ...
 ### jar
@@ -127,6 +138,8 @@ tags: NHN Entertainment
 * APK (Android Application Package) : 안드로이드 애플리케이션에서 사용되는 자바 압축 포맷의 일종
 ### 참고자료
 * 위키백과 https://ko.wikipedia.org/wiki/JAR_%28파일_포맷%29
+
+---
 
 ## RESTful API
 ### 개념
@@ -151,6 +164,8 @@ tags: NHN Entertainment
 * https://brainbackdoor.tistory.com/53
 * https://joonyon.tistory.com/13
 
+---
+
 ## Annotation
 * @를 이용하여 자바코드에 주석을 달아 특별한 의미를 부여한 것
 * 본질적인 목적은 소스 코드에 메타데이터를 표현
@@ -168,6 +183,8 @@ tags: NHN Entertainment
 * https://sjh836.tistory.com/8
 * Reflection : https://gyrfalcon.tistory.com/entry/Java-Reflection
 
+---
+
 ## Redis
 * **RE**mote **DI**ctionary **S**erver
 * Redis는 빠른 오픈 소스 인 메모리 키 값 데이터 구조 스토어로 Redis는 다양한 인 메모리 데이터 구조 집합(key/value, list, hashset, ...)을 제공하므로 다양하게 사용할 수 있다.
@@ -176,6 +193,8 @@ tags: NHN Entertainment
 ### 참고자료
 * https://aws.amazon.com/ko/elasticache/what-is-redis/
 
+---
+
 ## JSTL
 ### 정의
 * JSTL은 JSP 표준라이브러리(JSP Standard Tag Library)의 약어이다. 자주 사용될 수 있는 커스텀 태그들을 모아서 표준으로 모아놓은 태그 라이브러리다.
@@ -183,8 +202,9 @@ tags: NHN Entertainment
 * https://sjh836.tistory.com/136?category=680970
 * http://java.sun.com/jsp/jstl
 
-## MyBatis
+---
 
+## MyBatis
 ### 정의
 * jdbc를 인자로 필요로하는 jdbc에 종속된 라이브러리로, 개발자들은 jdbc를 직접 호출하지 않고 MyBatis에게 일을 시킴으로써 간단하게 사용 가능
 ### JDBC
@@ -194,6 +214,7 @@ tags: NHN Entertainment
 ### 참고자료
 * https://okky.kr/article/516817?note=1549827
 
+---
 
 ## DDD
 ### Domain Driven Design
@@ -201,6 +222,7 @@ tags: NHN Entertainment
 ### 참고자료
 * https://vandbt.tistory.com/2
 
+---
 
 ## Controller에서 다양한 타입으로 Request 요청받기
 * @PathVariable : 중괄호에 명시된 값을 변수로 받는다.
@@ -212,6 +234,7 @@ tags: NHN Entertainment
 ### 참고자료
 * https://sjh836.tistory.com/143?category=680970
 
+---
 
 ## RestTemplate
 ### 정의
@@ -220,6 +243,7 @@ tags: NHN Entertainment
 ### 참고자료
 * https://sjh836.tistory.com/141
 
+---
 
 ## lombok
 ### 개념
@@ -236,6 +260,7 @@ tags: NHN Entertainment
 * https://taetaetae.github.io/2017/02/22/lombok/
 * https://www.popit.kr/실무에서-lombok-사용법/
 
+---
 
 # 일단 여기까지!
 ## 후기
